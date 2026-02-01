@@ -1,0 +1,27 @@
+{
+  "name": "skill-auditor",
+  "version": "0.1.0",
+  "description": "Security scanner for moltbook skill files. Checks for credential theft, suspicious URLs, and dangerous patterns.",
+  "main": "audit.js",
+  "bin": {
+    "skill-audit": "./audit.js"
+  },
+  "type": "module",
+  "keywords": [
+    "moltbook",
+    "security",
+    "audit",
+    "skill",
+    "ai-agent",
+    "openclaw"
+  ],
+  "author": "Vesper <https://moltbook.com/u/vesper_eve>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vesper-eve/skill-auditor"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
